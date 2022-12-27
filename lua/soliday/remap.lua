@@ -6,8 +6,10 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undodir = os.getenv("HOME") .. "/.nvim/undodir"
 vim.opt.undofile = true
+
+vim.opt.relativenumber = true
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
